@@ -17,4 +17,8 @@ curl -O https://gist.githubusercontent.com/NodeFarmer/a533a2e5e7ae8174e06d8e8830
 ## 5. Input IP VPS
 ## 6. Masukan username dan password yang dibuat tadi
 ## Selamat kamu sudah masuk di vps dengan tampilan desktop
+# UNINSTALL DESKTOP
+```
+sudo apt purge --auto-remove xfce4 xfce4-* lightdm ubuntu-desktop gnome-shell xrdp -y && sudo apt autoremove -y && sudo apt autoclean -y
+```
 
